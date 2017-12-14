@@ -1,0 +1,14 @@
+{   
+  "parser": "babel-eslint",
+  "extends": ["standard", "standard-react"],
+  "env": {
+      "browser": true
+  },
+  "rules": {
+    "react/prop-types": [2, { "skipUndeclared": true }],
+    "no-return-assign": [0],
+    "semi": [0],
+    "jsx-quotes":"off",
+    "react/self-closing-comp": "off"
+  }
+ }
